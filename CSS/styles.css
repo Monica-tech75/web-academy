@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+       /*CSS menu*/
+
+.container-menu {
+  color: rgb(165, 141, 141);
+  background-color: rgb(244, 243, 241);
+  margin-left: 2em;
+  height: 64px;
+  display: flex;
+  align-items: baseline;
+
+}
+.title-name {
+  font-size: 1.6em;
+  margin: 16px 0 0 -8px;
+  text-transform: uppercase;
+  font-family: "Calistoga", sans-serif;
+
+}
+
+.title-span {
+  color:rgb(152, 122, 50);
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  font-size: 1.6em; 
+  margin-right: 30px;
+  
+}
+
+
+li {
+  margin-right: 20px;
+  
+}
+.menu-divider {
+  border: 4px solid goldenrod;
+}
+                 /*  CSS header   */
+
+.header-container {
+  background-color: rgb(211, 222, 232);
+  width: 100%;
+
+} 
+
+.header {
+  display: flex;
+   
+} 
+
+
+.banner {
+  border-radius: 20px;
+  display: flex;
+  margin: 24px 32px;
+
+
+}
+.inscription {
+  align-self: center;
+  margin-left: 32px;
+  width: 25%;
+  
+}
+.inscription h2 {
+  font-size: 3.5em;
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: "AR One Sans", sans-serif;
+
+}
+.inscription p {
+  font-size: 1.8em;
+  text-align: left;
+  margin-bottom: 25px;
+  font-family: "Roboto", serif;
+  
+}
+.inscription .button-start {
+  width: 100%;
+  padding: 8px;
+  font-family: "Roboto", serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: rgb(76, 118, 150);
+  color:rgb(204, 195, 221);
+  border-radius: 5px;
+  
+}
+
+    /*  Main Body   */
+
+.main-container {
+  background-color: bisque;
+  width: 100%;
+}
+.container1 {
+  display: flex;
+}
+
+.main-img {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.imgOne {
+  display: flex;
+  margin: 24px 32px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+.text-img1{
+  color: rgb(35, 34, 34);
+  font-size: 1.5em;
+  
+  width: 60%;
+  align-self: center;
+  
+}
+.text-img1 h2 {
+  font-family: "Roboto", serif;
+  margin-bottom: 20px;
+}
+
+.text-img1 p span{
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 1.1em;
+
+}
+
+     /*  Main right side  */
+
+.img-and-text {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin: 32px 0 32px 24px;
+} 
+.img-and-text h3 {
+  font-size: 1.4em;
+  font-family: "AR One Sans", sans-serif;
+  color: rgb(35, 34, 34);;
+  
+}
+
+.img-right {
+  border-radius: 10px;
+}
+
+.text-img2 {
+  margin-left: 40px;
+}
+.img-and-text {
+  font-size: 1.5em;
+}
+.campus {
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.date, .guest {
+  background-color: rgb(216, 186, 110);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
