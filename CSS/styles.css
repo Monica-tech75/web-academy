@@ -249,6 +249,23 @@ aside p {
 .container-courses p {
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
+  margin-bottom: 4em;
+}
+
+      /*  THESIS EXHIBIT  */
+
+.thesis-left{
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 32px 24px 32px;
+  
+}
+.video-urban {
+  width: 60%;
+}
+
+.thesis-img-text {
+  display: flex;
 }
 
 
