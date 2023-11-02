@@ -9,6 +9,16 @@ body {
   text-align: center;
   padding: 30px;
 }
+
+p, h1, h2, h3 {
+  color: rgb(34, 22, 51)
+}
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family:  Arial, Helvetica, sans-serif;
+}
        /*CSS menu*/
 
 .container-menu {
@@ -25,7 +35,6 @@ body {
   font-size: 1.6em;
   margin: 16px 0 0 -8px;
   text-transform: uppercase;
-  font-family: "Calistoga", sans-serif;
 
 }
 
@@ -86,7 +95,6 @@ li a {
   
 }
 .inscription h2 {
-  color: rgb(56, 36, 86);
   font-size: 3.5em;
   margin-bottom: 30px;
   font-family: "AR One Sans", sans-serif;
@@ -94,7 +102,6 @@ li a {
 
 }
 .inscription p {
-  color: rgb(56, 36, 86);
   font-size: 1.8em;
   margin-bottom: 30px;
   font-family: "Roboto", serif;
@@ -109,7 +116,7 @@ li a {
   font-size: 1.7em;
   font-weight: 600;
   letter-spacing: 2px;
-  background-color: rgb(155, 166, 174);
+  background-color: rgb(107, 148, 177);
   color:rgb(230, 227, 235);
   border-radius: 5px;
   border: none;
@@ -221,11 +228,13 @@ aside p {
 }
 .container-courses {
   background-color:  rgb(132, 172, 201);
+  margin-bottom: 2rem;
 }
 
 .courses {
   display: flex;
   justify-content: space-between;
+  
   
 }
 .courses2 {
@@ -253,20 +262,66 @@ aside p {
 }
 
       /*  THESIS EXHIBIT  */
+.video-title {
+        margin-top: 4rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        font-weight: 800;
+        
+      }
+      
 
-.thesis-left{
+.thesis{
   display: flex;
-  justify-content: space-between;
-  margin: 200px 32px 24px 32px;
+  margin: 24px 32px;
+  width: 100%;
   
 }
-.video-urban {
+
+.video-urban, .thesis-text-left {
   width: 60%;
+  display: block;
+  background-color: rgb(148, 180, 203);
+  padding: 2rem;
 }
+
 
 .thesis-img-text {
   display: flex;
+
 }
+
+.thesis-right {
+  margin-right: 200px;
+  margin-left: -70px;
+}
+
+.thesis-right img {
+  margin-right: 2em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+.thesis-right .showcase {
+  
+  align-self: center;
+}
+.pie {
+  display: flex;
+  justify-content: space-between;
+  margin: 64px 32px 24px 32px;
+  
+}
+.terms li {
+  list-style: none;
+  margin-right: 12px;
+  
+}
+ul {
+  display: flex;
+  
+}
+
 
 
 
