@@ -127,6 +127,10 @@ li a {
   transition-property: background-color;
   transition-duration: 2s;
 }
+.button-start a {
+  color:rgb(235, 214, 187);
+  text-decoration: none;
+}
 
 
     /*  Main Body   */
@@ -144,6 +148,11 @@ li a {
   display: flex;
   flex-direction: column;
 
+}
+@media only screen and (max-width: 600px) {
+  .imgOne {
+    display: none;
+  }
 }
 
 .imgOne {
@@ -211,7 +220,7 @@ aside p {
 }
 
 .date, .guest {
-  background-color: rgb(215, 229, 239);
+  
   border-radius: 10px;
 }
 

@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  width: 100%;
+
+}
+section {
+
+  width: 40%;
+  text-align: center;
+  margin:  0 auto;
+  background-color: aqua;
+  opacity: 0.9;
+  padding: 1rem;
+}
+
+
+.divider-line {
+  border: 2px solid rgb(150, 148, 148);
+}
+#logo {
+  border-radius: 2rem;
+  height: 70%;
+  margin-top: 3.3rem;
+  opacity: 0.5;
+  
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.logo-name span{
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  color:rgb(185, 176, 48)
+}
+
+.logo-name h1 {
+  font-size: 4rem;
+  color: rgb(55, 51, 51);
+}
+input {
+  text-align: center;
+  border-style: hidden;
+  padding: 0.5rem
+}
+.age{
+  margin-right: 30px;
+   
+}
