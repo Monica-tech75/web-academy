@@ -3,7 +3,7 @@ body {
   width: 100%;
 
 }
-section {
+#overlay {
 
   width: 40%;
   text-align: center;
@@ -24,6 +24,7 @@ section {
   opacity: 0.5;
   
 }
+
 
 .logo-name {
   display: flex;

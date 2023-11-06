@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <section id="overlay">
+    <form id="overlay">
 
       <header class="logo-container">
         <div class="logo-name">
@@ -24,7 +24,7 @@
       </header>
 
 
-        <form>
+        <section class="login-form">
           <h1>Login to start your course today!</h1>
           <div class="personal-info">
           <label for="fullname">Fullname:</label>
@@ -41,12 +41,22 @@
           <br>
           <label for="user-password">Password:</label>
           <input type="password" name="user-password" id="user-password" placeholder="Enter your password"/>
+          </div>
+          <div class="user-choises">
+          <br>
+          <label for="mid-full">How do you want to do your course?</label> 
+          <br>
+          <span>Mid Time</span>
+          <input id="mid-full" name="mid-full" type="range" min="0" max="5" step="1"/>
+          <span>Full-Time</span>
         </div>
-        </form>
+        
+        
 
      
 
     </section>
+  </form>
 
 
 
