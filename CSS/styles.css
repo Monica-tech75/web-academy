@@ -14,43 +14,49 @@ p, h1, h2, h3 {
   color: rgb(34, 22, 51)
 }
 h1, h2, h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "AR One sans", "Roboto", sans-serif;
 }
 p {
   font-family:  Arial, Helvetica, sans-serif;
 }
        /*CSS menu*/
 
-.container-menu {
+.logo-container {
   color: rgb(165, 141, 141);
   background-color: rgb(244, 243, 241);
   margin-left: 2em;
-  height: 64px;
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 5px solid rgb(152, 122, 50);
   
 
 }
-.title-name {
-  font-size: 1.6em;
-  margin: 16px 0 0 -8px;
+.logo-name {
+  font-size: 4em;
+  margin: 16px 0 12px -8px;
   text-transform: uppercase;
 
 }
+.logo {
+  display: flex;
+  
+}
 
-.title-span {
+.logo-name span {
   color:rgb(152, 122, 50);
 }
 
 
 
-.links {
+.nav-menu > ul{
   display: flex;
   justify-content: end;
-  list-style: none;
   margin-right: 20px;
+  list-style: none;
 }
-li a {
+li a{
+  list-style: none;
   text-decoration: none;
   color: rgb(123, 116, 116);
   font-weight: 600;
@@ -59,59 +65,57 @@ li a {
 }
 
 
-.menu-divider {
-  border: 4px solid goldenrod;
-}
+
                  /*  CSS header   */
 
-.header-container {
-  background-color: rgb(211, 222, 232);
+ .banner-container {
+  display: flex;
   width: 100%;
-  
-
-} 
-
-.header {
-  display: flex;
-   
-} 
+ }
 
 
-.banner {
+.banner > img{
   border-radius: 20px;
-  display: flex;
+  width: 60%;
   margin: 32px 24px;
-
-
 }
-.inscription {
-  align-self: center;
-  width: 35%;
+
+@media only screen and (max-width: 900px) {
+  .banner img {
+    display: none;
+  }
+  @media only screen and (max-width: 900px) {
+    .start-header {
+      margin-left: 50px;
+    }
+  }
   
 }
-.subheader{
-  margin-left: 200px;
-  text-align: left;
-  
+
+
+.start-header {
+  align-self:center;
 }
-.inscription h2 {
+
+
+.start-header h2 {
   font-size: 3.5em;
   margin-bottom: 30px;
   font-family: "AR One Sans", sans-serif;
   text-decoration: underline;
+  text-align: left;
 
 }
-.inscription p {
+.start-header p {
   font-size: 1.8em;
   margin-bottom: 30px;
   font-family: "Roboto", serif;
+  text-align: left;
   
 }
-.inscription .button-start {
+.start-header .button-start {
   width: 60%;
-  margin-left: 150px;
   padding: 8px;
-  text-align: center;
   font-family: "Roboto", serif;
   font-size: 1.7em;
   font-weight: 600;
@@ -120,6 +124,7 @@ li a {
   color:rgb(230, 227, 235);
   border-radius: 5px;
   border: none;
+  margin-right: 250px;
   
 }
 .button-start:hover {
