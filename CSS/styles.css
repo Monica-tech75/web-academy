@@ -143,25 +143,22 @@ li a{
 .main-container {
   background-color: bisque;
   width: 100%;
+  display: flex;
 }
 .container1 {
   display: flex;
+
+  margin: 24px 32px;
 }
 
-.main-img {
+.main-img img, .text-img1{
   width: 60%;
-  display: flex;
-  flex-direction: column;
+}
 
-}
-@media only screen and (max-width: 600px) {
-  .imgOne {
-    display: none;
-  }
-}
+
+
 
 .imgOne {
-  display: flex;
   margin: 24px 32px;
   border-radius: 20px;
   margin-bottom: 32px;
@@ -213,6 +210,7 @@ aside p {
 
 .img-right {
   border-radius: 10px;
+  width: 66%
 }
 
 .text-img2 {
@@ -284,6 +282,11 @@ aside p {
         font-weight: 800;
         
       }
+@media only screen and (max-width: 900px) {
+  .thesis-video-text > .thesis-text-left {
+    display: none;
+  }
+}     
       
 
 .thesis{
@@ -297,7 +300,8 @@ aside p {
   width: 60%;
   display: block;
   background-color: rgb(148, 180, 203);
-  padding: 2rem;
+  padding: 0.5rem;
+
 }
 
 
@@ -313,8 +317,9 @@ aside p {
 
 .thesis-right img {
   margin-right: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 4em;
   border-radius: 1em;
+  width: 100%;
 }
 .thesis-right .showcase {
   
